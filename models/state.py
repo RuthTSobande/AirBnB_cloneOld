@@ -1,19 +1,13 @@
 #!/usr/bin/python3
-"""Defines the User class."""
+"""Defines the State class."""
 from models.base_model import BaseModel
 
 
-class User(BaseModel):
-    """Represent a User.
+class State(BaseModel):
+    """Represent a state.
 
     Attributes:
-        email (str): The email of the user.
-        password (str): The password of the user.
-        first_name (str): The first name of the user.
-        last_name (str): The last name of the user.
+        name (str): The name of the state.
     """
 
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
+    name = ""
